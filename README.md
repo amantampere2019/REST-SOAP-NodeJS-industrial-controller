@@ -1,2 +1,3 @@
 # REST-SOAP-NodeJS-industrial-controller
+## For more details, please click here: ![Report](Report.pdf)
 The assignment objectives were to practice working with INICO S1000 industrial controller and learn how to operate it by using REST and SOAP protocols as platform NodeJS was used. The purpose was to send the INICO S1000 to send events to the server created with NodeJS. Then the device sends time stamp, where the seconds part of the timestamp is picked up. Then the seconds are changed to 8-bit binary value. The eight outputs are supposed to be set on or off depending on the binary value zeros and ones. The INICO device sends the stamp in every 5 seconds and in every 5 seconds the outputs are also supposed to change.
